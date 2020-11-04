@@ -1,0 +1,115 @@
+/* ========
+Custom css for you as a guide
+Author: Kamal
+github: https://github.com/kenkarmah
+Twitter: @kenkarmah
+======== */
+
+nav{
+  background: white;
+  max-width: 100%;
+  height: 64px;
+  border-bottom: 2px solid #faf7f7;
+}
+
+a.brand-logo{
+  color: #ffffff;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-left: 200px;
+  line-height: 64px;
+}
+
+nav a:hover {
+  color: red;
+  background: rgba(64, 32, 55, 11);
+  padding: 12px;
+  transition: ease-in 1s;
+}
+
+
+nav ul{
+  float: right;
+  margin-right: 200px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+nav ul li>a {
+  color: #928e8e;
+  text-decoration: none;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Banner goes here  */
+#banner{
+  background-image: url(../img/header.jpg);
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  background-attachment: fixed;
+}
+
+/* Ban-content */
+#banner div.ban-content{
+  text-align: right;
+  padding-top: 7rem;
+  margin-right: 200px;
+}
+
+section#ab-1,#ab-2{
+  padding: 50px 200px; 
+}
+
+section#ab-2 .row{
+  width: 100%;
+}
+
+#ab-2 div{
+  display: inline-block;
+}
+
+div.box-1,.box-2,.box-3{
+  width: 300px;
+  height: auto;
+}
+
+button{
+  background: #faf7f7;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#parallax{
+  background-image: url(../img/header.jpg);
+  height: 35vh;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10px;
+  background-attachment: fixed;
+}
+
+.flow-text{
+  color:rgba(98, 0, 255, 0.739);
+  font-size: 30px;
+  padding-top: 3rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* Footer */
+footer{
+  background: #faf7f7;
+  text-align: center;
+  padding: 20px 0;
+
+}
